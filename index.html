@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.header{
+  background-color: #000229;
+  padding: 20px;
+  text-align: center;
+}
+.main{
+  display: flex;
+  flex-grow: 1;
+}
+.sidebar{
+  width: 275px;
+  background-color: darkslategrey;
+  color: white;
+  height: 100vh;
+  padding: 25px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.main-content{
+  flex-grow: 1;
+  background-color: lightgray;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.form-section{
+  margin-top: 10px;
+  padding: 15px;
+  background-color: lightslategray;
+  border: 3.5px solid black;
+}
+body{
+  font-family: Arial, sans-serif;
+   margin: 20px;
+}
+form{
+  max-width: 600px;
+  margin: 0 auto;
+}
+input[type="text"],
+textarea,
+select{
+  width: 100%;
+  padding: 8px;
+  margin: 15px 0;
+  border: 3px solid #ccc;
+  border-radius: 2px;
+}
+input[type="submit"]{
+  padding: 10px 20px;
+  margin: 10px 5px;
+  background-color: purple;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    }
+input[type="submit"]:hover{
+   background-color: #450a49;
+}
+*{
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row:after {
+  clear: both;
+  display: table;
+}
+.column img{
+  width:70%;
+  align:center;
+}
+h1{
+  text-align: center; 
+  color: ghostwhite;
+}
+
+.header header {
+  color: white;
+  font-size: 75px;
+}
+button {
+  background-color: darkgreen;
+  color: white;
+  border: none;
+  padding: 12.5px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.container{
+  margin-left: 270px;
+  padding: 20px;
+  flex: 1;
+}
+.links{
+  font-size: 25px;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="sidebar">
+      <h3>HOMEPAGE:</h3>
+      <a href="index.html"><span class="links">Homepage</span></a> <br><br>
+      <a href="signup.html"><span class="links">Sign Up</span></a> <br><br>
+      <a href="log in.html"><span class="links">Log In</span></a>
+      </div>
+
+<div class="container">
+<div class="header">
+  <h1 style="font-size:50px">DEKStination</h1>
+  <h1>FREE SHIPPING on orders over Php 5,000</h1>
+  <h4 style="text-align: center; color: lightgray;">(Some condition may apply)</h4>
+  </div> 
+  
+<center>
+<div class="row">
+  <div class="column">
+    <a href="https://www.ikea.com/ph/en/p/linnmon-adils-table-white-s09246408/">
+    <img src="slide1.jpg">
+    </a>
+    <h3>LINNMON/ADILS</h3>
+    <p>Php 1,490</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="column">
+    <a href="https://www.ikea.com/ph/en/p/micke-desk-white-80354281/">
+    <img src="slide2.jpg">
+    </a>
+    <h3>MICKE-1</h3>
+    <p>Php 3,490</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="column">
+    <a href="https://www.ikea.com/ph/en/p/lagkapten-alex-desk-white-black-brown-s59431998/">
+    <img src="slide3.jpg" class="image-format">
+    </a>
+    <h3>LAGKAPTEN/ALEX</h3>
+    <p>Php 6,880</p>
+    <button>Add to Cart</button>
+  </div>
+
+<div class="row">
+  <div class="column">
+    <a href="https://www.ikea.com/ph/en/p/micke-desk-white-80354276/">
+    <img src="slide4.jpg">
+    </a>
+    <h3>MICKE-2</h3>
+    <p>Php 6,990</p>
+    <button>Add to Cart</button>
+    </div>
+
+    <div class="column">
+    <a href="https://www.ikea.com/ph/en/p/bruksvara-side-table-anthracite-90558230/"><img src="slide5.jpg">
+    </a>
+    <h3>BRUKSVARA</h3>
+    <p>Php 690</p>
+    <button>Add to Cart</button>
+    </div>
+
+    <div class="column">
+    <a href="https://www.ikea.com/ph/en/p/lagkapten-alex-desk-white-s29431928/">
+    <img src="slide6.jpg">
+    </a>
+    <h3>LAGKAPTEN/ALEX</h3>
+    <p>Php 6,380</p>
+    <button>Add to Cart</button>
+    </div>
+
+<div class="row">
+    <div class="column">
+    <a href="https://www.ikea.com/ph/en/p/malm-dressing-table-white-40355409/">
+    <img src="slide7.jpg">
+    </a>
+    <h3>MALM</h3>
+    <p>Php 6,990</p>
+    <button>Add to Cart</button>
+    </div>
+
+    <div class="column">
+    <a href="https://www.ikea.com/ph/en/p/utespelare-gaming-desk-black-40500350/">
+    <img src="slide8.jpg">
+    </a>
+    <h3>UTESPELARE</h3>
+    <p>Php 8,990</p>
+    <button>Add to Cart</button>
+    </div>
+
+    <div class="column">
+    <a href="https://www.ikea.com/ph/en/p/fjaellbo-laptop-table-black-10339736/">
+    <img src="slide9.jpg">
+    </a>
+    <h3>FJÄLLBO/ALEX</h3>
+    <p>Php 3,990</p>
+    <button>Add to Cart</button>
+    </div>
+</div>
+</center>
+</body>
+</html>
